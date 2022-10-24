@@ -35,3 +35,21 @@ ctx.beginPath();
 ctx.fillStyle = "red";
 ctx.arc(290, 120, 30, 0, Math.PI);
 ctx.fill();
+
+// tie (left)
+ctx.beginPath();
+ctx.fillStyle = "blue";
+ctx.moveTo(270, 220);
+ctx.lineTo(290, 230);
+ctx.lineTo(270, 240);
+ctx.lineTo(270, 220);
+ctx.fill();
+
+// tie (right)
+ctx.beginPath();
+ctx.fillStyle = "blue";
+ctx.moveTo(290, 230);
+ctx.lineTo(310, 220);
+ctx.lineTo(310, 240);
+ctx.lineTo(290, 230);
+ctx.fill();
